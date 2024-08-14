@@ -29,6 +29,6 @@ jobs:
       - name: Compress content pack
       - uses: montudor/action-zip@v1
           with:
-          args: zip -qq -r SFBayAreaFFContentPack.zip SFBayAreaFFContentPack.zip
+          args: zip -qq -r SFBayAreaFFContentPack.zip byop navdata
 
      
