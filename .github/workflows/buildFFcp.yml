@@ -26,6 +26,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: montudor/action-zip@v1
         with:
-            args: zip -qq -r archive/refs/SFBayAreaFFContentPack.zip byop navdata
+            args: zip -qq -r SFBayAreaFFContentPack.zip byop navdata
 
      
