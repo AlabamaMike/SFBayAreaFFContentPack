@@ -24,11 +24,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
       - name: Compress content pack
       - uses: montudor/action-zip@v1
-          with:
-          args: zip -qq -r SFBayAreaFFContentPack.zip byop navdata
+        with:
+            args: zip -qq -r archive/refs/SFBayAreaFFContentPack.zip byop navdata
 
      
